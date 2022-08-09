@@ -1,0 +1,64 @@
+#body
+{
+    background-color:blue;
+}
+
+#possessionTracker
+{
+    width:80%;
+    height:10%;
+    display:flex;
+    position:absolute;
+    top:20vh;
+    left:10%;
+}
+
+#buttonFlex
+{
+    display:flex;
+    margin-top:5vh;
+    height:5vh;
+}
+
+#endButton, #pauseButton, #unpauseButton
+{
+    display:none;
+}
+
+#teamOne
+{
+    width:50%;
+    height:100%;
+    background-color:blue;
+}
+
+#teamOnePercentage
+{
+    text-align: center;
+}
+
+#teamTwo
+{
+    width:50%;
+    height:100%;
+    background-color:red;
+}
+
+#teamTwoPercentage
+{
+    text-align: center;
+}
+
+#button
+{
+    width:50vw;
+    position:absolute;
+    top:30vh;
+    left:50%;
+    transform:translate(-50%,0)
+}
+
+#button:hover
+{
+    cursor:pointer
+}

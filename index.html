@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body id="body">
+        <div id="buttonFlex">
+        <button onclick="startGame()" id="startButton">Start Game</button>
+        <button onclick="endGame()" id="endButton">End Game</button>
+        <button onclick="pauseGame()" id="pauseButton">Pause Game</button>
+        <button onclick="pauseGame()" id="unpauseButton">Unpause Game</button>
+        </div>
+
+        <h1 style="text-align:center" id="gameTimeDisplay">00:00</h1>
+
+        <div id="possessionTracker">
+            <div id="teamOne"><h2 id="teamOnePercentage">50%</h2></div>
+            <div id="teamTwo"><h2 id="teamTwoPercentage">50%</h2></div>
+        </div>
+
+        <img src="image.png" id="button">
+    </body>
+</html>
